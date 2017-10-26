@@ -1,0 +1,16 @@
+PODS:
+  - XCLogStaticDemo (1.0.0)
+
+DEPENDENCIES:
+  - XCLogStaticDemo (from `../`)
+
+EXTERNAL SOURCES:
+  XCLogStaticDemo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  XCLogStaticDemo: e0e9eb1a09e76e1ee65348573f97225949143fb7
+
+PODFILE CHECKSUM: 48d5def25c000cf6946043a164b89dad67f8cdf8
+
+COCOAPODS: 1.2.1

@@ -7,6 +7,7 @@
 //
 
 #import "XCViewController.h"
+#import <XCLogStaticDemo/XCLog.h>
 
 @interface XCViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor grayColor];
+    XCLog *xc = [[XCLog alloc] init];
+    [xc xc_log:@"test"];
 }
 
 - (void)didReceiveMemoryWarning
