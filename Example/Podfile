@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XCLogStaticDemo_Example' do
+  pod 'XCLogStaticDemo', :path => '../'
+
+  target 'XCLogStaticDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
