@@ -1,8 +1,11 @@
 use_frameworks!
 
 target 'XCLogStaticDemo_Example' do
-  pod 'XCLogStaticDemo', :path => '../'
-
+  #pod 'XCLogStaticDemo', :path => '../'
+  pod 'XCLogStaticDemo'
+  #pod 'XCLogStaticDemo', :subspecs => [
+  #	Subspec
+  #]
   target 'XCLogStaticDemo_Tests' do
     inherit! :search_paths
 
