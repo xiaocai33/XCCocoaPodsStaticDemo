@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XCLogStaticDemo'
-  s.version          = '1.3.0'
+  s.version          = '1.4.0'
   s.summary          = 'A short description of XCLogStaticDemo.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/xiaocai33/XCLogStaticDemo'
+  s.homepage         = 'https://github.com/xiaocai33/XCCocoaPodsStaticDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xiaocai33' => 'tycai1@163.com' }
-  s.source           = { :git => 'https://github.com/xiaocai33/XCLogStaticDemo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/xiaocai33/XCCocoaPodsStaticDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   # 部署的系统要求
