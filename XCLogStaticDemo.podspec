@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XCLogStaticDemo'
-  s.version          = '1.1.0'
+  s.version          = '1.3.0'
   s.summary          = 'A short description of XCLogStaticDemo.'
 
 # This description is used to generate tags and improve search results.
